@@ -37,8 +37,8 @@ $ sudo apt-get install git build-essential linux-headers-`uname -r`
 ### Build
 
 ```bash:command
-$ cd /tmp
-$ git clone git clone https://github.com/kinumi/sk98lin.git
+$ cd /tmp # Note that these instructions won't work outside of /tmp
+$ git clone https://github.com/kinumi/sk98lin.git
 $ cd sk98lin/sk98lin
 $ tar cvfj ../sk98lin.tar.bz2 *
 $ cd ..
